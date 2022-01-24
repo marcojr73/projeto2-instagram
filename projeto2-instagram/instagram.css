@@ -1,0 +1,353 @@
+ion-icon{
+    color: black;
+    font-size: 22px;
+}
+.logo-ig{
+    width: 103px;
+    height: 29px;
+}
+.logo-mobile{
+    display: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 54px;
+    width: 943px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color:  white;
+    border-bottom: 1px solid #DBDBDB;
+    z-index: 10;
+}
+.sep-horizontal{
+    position: fixed;
+    top: 54px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #DBDBDB;
+}
+.text-area::placeholder{
+    text-align: center;
+}
+.text-area{
+    width: 215px;
+    height: 26px;
+    border-radius: 5px;
+    border: 1px solid #DBDBDB;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 6.5px;
+}
+.top{
+    width: 943px;
+}
+.sep-vertical{
+    width: 1px;
+    height: 22px;
+    background-color: #DBDBDB;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.ico1, .ico2, .ico3, .ico4{
+    margin-left: 20px;
+}
+.ico{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6.5px;
+}
+.container{
+    width: 612px;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    width: 943px;
+    margin: auto;
+    display: flex;
+}
+.stories{
+    border: 1px solid #DBDBDB;
+    width: 612px;
+    height: 118px;
+    display: grid;
+    grid-template-columns: 13% 13% 13% 13% 13% 13% 13% 13%;
+    grid-template-rows: auto;
+    margin-top: 88px;
+    margin-bottom: 24px;
+    overflow: hidden;
+    position: relative;
+}
+.users{
+    background-image: url('./images/stories_background.jpg');
+    display: flex;
+    width: 69px;
+    height: 69px;
+    background-size: 69px;
+    justify-content: center;
+    margin-top: 18px;
+    margin-left: 18px;
+}
+.users img{
+    margin-top: 5px;
+    width: 60px;
+    border-radius: 50%;
+}
+.users p{
+    color: #262626;
+    font-size: 12px;
+    font-family: 'Roboto';
+    text-align: center;
+}
+.arrow{
+    position: absolute;
+    top: 46px;
+    right: 9px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+}
+.content{
+    width: 614px;
+}
+.picture img{
+    width: 612px;
+    height: 612px;
+}
+.post-info{
+    display: flex;
+    height: 61px;
+    align-items: center;
+    margin-left: 17px;
+    margin-right: 17px;
+    font-size: 14px;
+    color: #262626;
+    font-weight: bold;
+    justify-content: space-between;
+}
+.post-info img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post{
+    width: 614px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-bottom: 60px;
+}
+.comment-bar{
+    border-style: none;
+    margin-left: 10px;
+}
+.info{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.comment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.interaction{
+    display: flex;
+    align-items: center;
+}
+.comment a{
+    color: #B2DFFC;
+    transition-property: color;
+    transition-duration: 300ms;
+}
+.comment a:hover{
+    color: #0095F6;
+}
+.comments a{
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: #8E8E8E;
+}
+.comments ion-icon{
+    font-size: 15px;
+}
+.speak{
+    display: flex;
+    justify-content: space-between;
+}
+.liked img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.liked{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 38px;
+    font-size: 14px;
+}
+span{
+    font-weight: bold;
+}
+.liked p{
+    font-family: 'Roboto';
+}
+.sugestions{
+    width: 300px;
+    height: 452px;
+    position: fixed;
+    left: calc(50% + 171.5px);
+    top: 88px;
+}
+.profile img{
+    width: 56px;
+    border-radius: 50%;
+}
+.profiles img{
+    width: 32px;
+    border-radius: 50%;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.shen h1{
+    font-weight: bold;
+    margin-left: 17px;
+    font-family: 'Roboto';
+}
+.shen h2{
+    margin-left: 17px;
+    color: #8E8E8E;
+    font-family: 'Roboto';
+}
+.sug-for-you{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    font-size: 12px;
+    font-family: 'Roboto';
+    margin-bottom: 17px;
+}
+.sug-for-you h1{
+    color: #8E8E8E;
+}
+.sug-for-you h2{
+    font-weight: bold;
+}
+.profiles{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.profiles p{
+    color: #139EF2;
+    font-weight: bold;
+}
+.champion{
+    display: flex;
+    flex-direction: column;
+    height: 35px;
+    margin-left: 11px;
+    font-family: 'Roboto';
+}
+.champion h1{
+    font-size: 14px;
+    font-weight: bold;
+    color: #262626;
+
+}
+.champion h2{
+    font-size: 12px;
+    color: #8E8E8E;
+}
+.info2{
+    display: flex;
+    height: 35px;
+}
+.about{
+    height: 74px;
+    font-size: 11px;
+    color: #C7C7C7;
+    font-family: 'Roboto';
+}
+.owner{
+    margin-top: 18px;
+}
+.ico-nav{
+    display: none;
+}
+@media only screen and (max-width: 935px) {
+    .sugestions{
+        display: none;
+    }
+    .container{
+        margin: auto;
+    }
+    header{
+        width: 856.87px;
+        justify-content: space-around;
+    }
+}
+@media only screen and (max-width: 614px){
+    .sep-vertical{
+        display: none;
+    }
+    .text-area{
+        display: none;
+    }
+    .ico2, .ico3, .ico4, .logo-ig{
+        display: none;
+    }
+    .logo-mobile{
+        display: block;
+    }
+    .stories{
+        margin: 0;
+        margin-top: 54px;
+    }
+    header{
+        width: 617px;
+        justify-content: space-between;
+    }
+    .ico-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 617px;
+        height: 54px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 1;
+        background-color: white;
+        border-top: 1px solid #DBDBDB;
+    }
+    .ico-nav::hover{
+        color: black;
+    }
+}
