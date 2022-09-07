@@ -13,6 +13,13 @@
 
 ***
 
+# Demonstração
+
+<div align=center>
+   <img width=600 src="./images/app.png"/>
+</div>
+
+
 ## Como usar
 
 Instale meu projeto e abra-o no navegador
